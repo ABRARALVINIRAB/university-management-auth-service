@@ -5,9 +5,9 @@ const app: Application = express()
 //cors use
 app.use(cors())
 //parser
-        app.use(express.urlencoded({ extended: true }))
+app.use(express.urlencoded({ extended: true }))
 
-app.get('/', (req: Request, res: any) => {
+app.get('/', (req: Request, res: Response) => {
   res.send('Working succcessfully')
 })
 
