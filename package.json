@@ -14,7 +14,7 @@
   "author": "abrar alvi nirab",
   "license": "ISC",
   "lint-staged": {
-    "src/**/.ts":"lint-prettier"
+    "src/**/.ts":"yarn lint-prettier"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.59.8",
